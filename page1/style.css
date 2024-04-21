@@ -1,0 +1,56 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    color: #252525;
+    max-width: 610px;
+    margin: 50px auto;
+
+}
+.title h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 800px;
+}
+.title p{
+    font-weight: 400px;
+    font-size: 26px;
+    line-height: 35.52px;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 16px;
+    background-color: #252525;
+    color: #fff;
+    max-width: 158px;
+    padding: 18px 48px 18px 48px;
+}
+.btn:hover,
+.btn:focus{
+    opacity: .7;
+    color: cornflowerblue;
+}
+.image_ilst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1312px;
+    gap: 16px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+
+}
+img{
+    max-width: 316px;
+    
+}
+img + img{
+    margin-left: 16px;
+}
